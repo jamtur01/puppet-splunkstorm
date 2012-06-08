@@ -6,8 +6,8 @@ Description
 
 A Puppet report handler for sending logs, events and metrics to SplunkStorm.
 
-Extracts metrics and logs from Puppet reports, converts them to JSON, and
-POSTs them to SplunkStorm as an event for later searching & reporting.
+Extracts metrics and logs from Puppet reports and POSTs them to
+SplunkStorm as an event for later searching & reporting.
 
 Requirements
 ------------
@@ -30,7 +30,7 @@ Installation & Usage
     path.
 
 5.  Update the `access_token` variable in the `splunkstorm.yaml` file with
-    your SplunkStorm token and the `project_id` field your project's ID.
+    your SplunkStorm token and the `project_id` field with your project's ID.
 
 6.  Copy `splunkstorm.yaml` to `/etc/puppet`.
 
